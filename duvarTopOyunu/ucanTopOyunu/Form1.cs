@@ -42,7 +42,8 @@ namespace ucanTopOyunu
                 {
                     timer1.Stop();
                     MessageBox.Show("OYUN BÝTTÝ ", "",MessageBoxButtons.OK);
-
+                    Form1_Load(sender, e);
+                    can = 3;
                 }
 
             }
